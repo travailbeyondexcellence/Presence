@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Testing
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+*.pem
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Lock files
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Misc
+.cache/
+.temp/
+.tmp/
