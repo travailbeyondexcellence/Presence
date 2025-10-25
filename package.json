@@ -1,0 +1,11 @@
+{
+  "name": "presence",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "web": "cd frontend/web && bun run dev"
+  },
+  "workspaces": [
+    "frontend/web"
+  ]
+}
